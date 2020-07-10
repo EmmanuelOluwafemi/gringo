@@ -433,16 +433,17 @@ footer .content p{
 }
 
 @media screen and (max-width: 600px) {
-    /* .hero{
+    .hero{
         position: relative;
         display: flex;
         align-items: center;
         flex-direction: column;
-        width: 100%;
+        width: 200%;
         height: 90vh;
         background-image: url("../images/tomasz-sroka-CewT9iFBcgE-unsplash.jpg");
         background-size: cover;
-        background-position: unset !important; */
+        background-position: center !important;
+        overflow: hidden;
     }
 
     .hero h1{
