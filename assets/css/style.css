@@ -443,7 +443,7 @@ footer .content p{
         background-image: url("../images/tomasz-sroka-CewT9iFBcgE-unsplash.jpg");
         background-size: cover;
         background-position-x: 0 !important;
-        background-position-y: -2rem !important;
+        background-position-y: 0rem !important;
         overflow: hidden;
     }
 
