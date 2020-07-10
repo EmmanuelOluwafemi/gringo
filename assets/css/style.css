@@ -133,7 +133,7 @@ nav div span:last-child i{
     height: 90vh;
     background-image: url("../images/tomasz-sroka-CewT9iFBcgE-unsplash.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     /* display: flex;
     align-items: center;
     flex-direction: column; */
