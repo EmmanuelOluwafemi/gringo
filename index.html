@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gringo-Template</title>
+    
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!--boostrap -->
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <!-- Fontawesome -->
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- baguettebox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+
+    <!-- css links -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+      <!-- Nav bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand text-primary" href="#">Grimo</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+            </ul>
+
+            <div class="my-2 my-lg-0">
+              <span><i class="fab fa-instagram"></i></span>
+              <span><i class="fab fa-twitter"></i></span>
+              <span><i class="fab fa-facebook-f"></i></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <div class="hero">
+        <div class="container d-flex align-items-center flex-column">
+          <h1>Hello, welcome to <span class="text-primary">Gringo</span></h1>
+          <p>Digital Photo Studio</p>
+          <span><i class="fas fa-chevron-down"></i></span>
+        </div>
+      </div>
+    </header>  
+
+    <main>
+      <!-- about -->
+      <section class="about">
+        <div class="container h-100">
+          <div class="row h-100">
+            <div class="col-sm-12 col-md-6 h-100 img">
+            </div>
+            <div class="col-sm-12 col-md-6 about-content">
+              <h1 class="text-white">My name is John Doe</h1>
+              <p class="text-white">My style is a combination between photojournalism and fine-art photography with a touch of fashion and creative lighting. My photos are inspired by light, color, techniques from black & white processing, vintage photos, creative perspective, and of course, most importantly, the personalities of the people I photograph!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section class="gallery">
+        <div class="container">
+          <h1 class="py-4 text-center">See my gallery</h1>
+        <p class="pb-3 text-center">Here you will be able to find our latest and favorite works.</p>
+
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" id="all" href="#">All</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="wedding-tab" href="#">wedding</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="ceremony-tab" href="#">ceremony</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nature-tab" href="#">nature</a>
+          </li>
+        </ul>
+
+        <div class="tz-gallery">
+
+          <div class="grid-container">
+            <a class="lightbox imgs img-1" id="wedding" href="./assets/images/img-1.jpg">
+              <i class="fas fa-plus"></i>
+            </a>
+            <a class="lightbox imgs img-2" id="ceremony" href="./assets/images/img2.jpg">
+              <i class="fas fa-plus"></i>
+            </a>
+            <a class="lightbox imgs img-3" id="ceremony" href="./assets/images/img-3.jpg">
+              <i class="fas fa-plus"></i>
+            </a>
+            <a class="lightbox imgs img-4" id="nature" href="./assets/images/img-4.jpg">
+              <i class="fas fa-plus"></i>
+            </a>
+            <a class="lightbox imgs img-5" id="wedding" href="./assets/images/img-5.jpg">
+              <i class="fas fa-plus"></i>
+            </a>
+            <a class="lightbox imgs img-6" id="ceremony" href="./assets/images/img-6.jpg">
+              <i class="fas fa-plus"></i>
+            </a>
+            <a class="lightbox imgs img-7" id="nature" href="./assets/images/img-7.jpg">
+              <i class="fas fa-plus"></i>
+            </a>
+            <a class="lightbox imgs img-8" id="nature" href="./assets/images/img-8.jpg">
+              <i class="fas fa-plus"></i>
+            </a>
+            <a class="lightbox imgs img-9" id="nature" href="./assets/images/img-9.jpg">
+              <i class="fas fa-plus"></i>
+            </a>  
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="projects">
+        <div class="container">
+          <div class="row h-100">
+            <div class="col-sm-12 col-md-6 col-lg-3 project">
+              <img src="./assets/icons/camera.png" alt="camera icon">
+              <p class="text-white">Shots Captures</p>
+              <h3>3500</h3>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 project">
+              <img src="./assets/icons/vid-camera.png" alt="Video camera icon">
+              <p class="text-white">Video Project</p>
+              <h3>3500</h3>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 project">
+              <img src="./assets/icons/heart.png" alt="Heart icon">
+              <p class="text-white">Happy People</p>
+              <h3>3500</h3>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 project">
+              <img src="./assets/icons/pics.png" alt="Picture icon">
+              <p class="text-white">Photo Album</p>
+              <h3>3500</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <h1>Get in touch</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing<br> and typesetting industry.</p>
+        <div class="row justify-content-center">
+          <div class="col-md-4 content">
+            <img src="./assets/icons/pin 1.png" alt="">
+            <h2>Address</h2>
+            <p>House 12, Caxton street, Surulere, lagos</p>
+          </div>
+          <div class="col-md-4 content">
+            <img src="./assets/icons/phone 1.png" alt="">
+            <h2>Call us</h2>
+            <p>+234-8103-232-1167</p>
+          </div>
+          <div class="col-md-4 content">
+            <img src="./assets/icons/mail 1.png" alt="">
+            <h2>Email</h2>
+            <p>Olaoluwab48@gmail.com</p>
+          </div>
+        </div>
+        <form class="contact-form d-flex justify-content-center">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" id="inputPassword4" placeholder="Email">
+            </div>
+          </div>
+          <textarea placeholder="message"></textarea>
+          <div class="text-center">
+            <button>Submit</button>
+          </div>
+        </form>
+      </div>
+    </footer>
+
+
+    <div class="col-lg-4 col-md-4 col-sm-12 content">
+      
+    </div>
+
+
+    <!-- Scripts -->
+    <!-- Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.jss"></script>
+
+    <!-- AOS js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- baguettebox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    
+    <script src="./assets/js/script.js"></script>
+
+    <script>
+      AOS.init();
+      baguetteBox.run('.tz-gallery');
+    </script>
+</body>
+</html>
+
+

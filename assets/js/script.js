@@ -1,0 +1,63 @@
+$(document).ready(function(){
+    $('#wedding-tab').click(function(e){
+        e.preventDefault();
+        $('#wedding-tab').addClass('active');
+        $('#all').removeClass('active');
+        $('#ceremony-tab').removeClass('active');
+        $('#nature-tab').removeClass('active');
+        $('#nature').hide();
+        $('.img-1').show();
+        $('.img-2').hide();
+        $('.img-3').hide();
+        $('.img-4').hide();
+        $('.img-5').show();
+        $('.img-6').hide();
+        $('.img-7').hide();
+        $('.img-8').hide();
+        $('.img-9').hide();
+
+        $('.img-1').css("min-height", "25rem");
+    });
+
+    $('#ceremony-tab').click(function(e){
+        e.preventDefault();
+        $('#ceremony-tab').addClass('active');
+        $('#all').removeClass('active');
+        $('#wedding-tab').removeClass('active');
+        $('#nature-tab').removeClass('active');
+        $('.img-1').hide();
+        $('.img-2').show();
+        $('.img-3').show();
+        $('.img-4').hide();
+        $('.img-5').hide();
+        $('.img-6').show();
+        $('.img-7').hide();
+        $('.img-8').hide();
+        $('.img-9').hide();
+    });
+
+    $('#nature-tab').click(function(e){
+        e.preventDefault();
+        $('#nature-tab').addClass('active');
+        $('#all').removeClass('active');
+        $('#wedding-tab').removeClass('active');
+        $('#ceremony-tab').removeClass('active');
+        $('.img-1').hide();
+        $('.img-2').hide();
+        $('.img-3').hide();
+        $('.img-4').show();
+        $('.img-5').hide();
+        $('.img-6').hide();
+        $('.img-7').show();
+        $('.img-8').show();
+        $('.img-9').show();
+    });
+
+    $('#all').click(function(e){
+        e.preventDefault();
+        $('#nature-tab').removeClass('active');
+        $('#all').addClass('active');
+        $('#wedding-tab').removeClass('active');
+        $('#ceremony-tab').removeClass('active');
+    })
+});
