@@ -1,11 +1,33 @@
 /* Font import */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Gotham Pro Bold';
+       src: url('../fonts/gotham-pro-cufonfonts/GothaProBol.otf');
+    font-weight: 700;
+    font-style: normal;
+ }
+
+@font-face {
+    font-family: 'Gotham Pro Regular';
+    src: url('../fonts/gotham-pro-cufonfonts/GothaProReg.otf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro light';
+    src: url('../fonts/gotham-pro-cufonfonts/GothaProLig.otf');
+    font-weight: 300;
+    font-style: normal;
+}
 
 /* Variables */
 
 :root {
     --header-font: 'Montserrat', sans-serif;
-    --text-font: 'Raleway', sans-serif;
+    --text-font: 'Gotham Pro light', sans-serif;
+    --sub-title: 'Gotham Pro bold', sans-serif;
     --primary-color: #33AA09;
     --grey-color: #E5E5E5;
     --dark-color: #222325;
@@ -32,7 +54,7 @@ body{
 }
 
 h1{
-    font-family: var(--text-font);
+    font-family: var(--sub-title);
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -211,6 +233,7 @@ nav div span:last-child i{
 }
 
 .about-content h1{
+    font-family: var(--sub-title);
     width: 100%;
     text-align: left;
     margin-bottom: 15px;
