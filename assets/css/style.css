@@ -161,13 +161,28 @@ nav div span:last-child i{
     margin-top: 24px;
 }
 
-.hero span i{
+.hero a i{
     position: absolute;
     color: aliceblue;
     bottom: 5%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 50px;
+    animation: arrow 1.5s infinite ease-in-out;
+}
+
+@keyframes arrow {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 /* about */
@@ -403,8 +418,18 @@ footer .content p{
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 991px) {
 
+    .nav-link{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .navbar .navbar-collapse div{
+        display: flex;
+        justify-content: center;
+    }
 
     .about .img{
         background-position-y: 0px;
@@ -454,7 +479,7 @@ footer .content p{
         line-height: 19px;
     }
 
-    .hero span i{
+    .hero a i{
         display: none;
     }
 
